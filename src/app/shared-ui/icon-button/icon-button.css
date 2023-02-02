@@ -1,0 +1,17 @@
+.icon-button {
+    flex: 1;
+    border: none;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-button__active img {
+    color: #2198ED;
+}
+
+.icon-button:active {
+    background: #e8ecf0;
+}

@@ -1,0 +1,40 @@
+.input__wrapper {
+    display: flex;
+    position: relative;
+    flex: 1;
+}
+
+
+.input__text-area {
+    display: flex;
+    flex: 1;
+    width: 0px;
+    border: none;
+    outline: none;
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+.input__text-area__one-icon {
+    margin-right: 10px;
+}
+
+.input__icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.input__postfix {
+    position: absolute;
+    top: 12px;
+    color: #AAB2BB;
+    right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}

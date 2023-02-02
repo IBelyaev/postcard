@@ -1,0 +1,30 @@
+.settings-panel {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 240px;
+    padding: 17px 16px;
+}
+
+.settings-pane__header {
+    font-family: 'FiraSans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #788994;
+}
+
+.settings-pane__row {
+    margin-bottom: 10px;
+}
+
+.settings-pane__btn-first {
+    border-radius: 3px 0 0 3px;
+}
+
+.settings-pane__btn-last {
+    border-radius: 0 3px 3px 0;
+}

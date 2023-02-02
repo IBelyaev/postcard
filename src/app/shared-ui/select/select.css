@@ -1,0 +1,43 @@
+.select {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 9px;
+    cursor: pointer;
+    position: relative;
+}
+
+.select__icon-open {
+    transform: rotate(180deg);
+}
+
+.select__options {
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #E8ECF0;
+    left: -1px;
+    width: 101%;
+    z-index: 30;
+    position: absolute;
+    top: 49px;
+    box-sizing: border-box;
+}
+
+.select__option {
+    padding: 20px 15px 0;
+}
+
+.select__option:last-of-type {
+    padding-bottom: 20px;
+}
+
+.select__outside {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
